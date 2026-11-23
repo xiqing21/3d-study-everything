@@ -4,7 +4,7 @@
 
 A portable, English-first skill for turning business knowledge and domain scenarios into interactive 3D learning experiments. It combines causal modeling, original visual design, direct manipulation, layered verification, and scene-appropriate time control. The name stays **3D Study Everything**. "4D" here means 3D plus time when the lesson needs it, not a fourth spatial dimension.
 
-**Status: initial public source snapshot.** Two original runnable examples have 10 passing numerical tests plus selected desktop-browser comparisons and interactions checked by a coordinating operator. Four real screenshots were captured locally, but their binary PNG files are **not included in this initial text-only publication**. Screenshot upload remains pending; the source and local examples are runnable without those images. Broader device/accessibility/performance checks and independent model-to-model generation trials remain untested. No universal-model or consistent-quality guarantee is made. The Skill now recommends time-control levels by scene; the included demos still provide only the verified L1 controls (pause, reset, speed, step, and forward run-to-time), not history seek or checkpoint branching.
+**Status: public source with original visual evidence.** Source, four still screenshots, and a sampled-state GIF are published at [xiqing21/3d-study-everything](https://github.com/xiqing21/3d-study-everything). Two original runnable examples have 10 passing numerical tests plus selected desktop-browser comparisons and interactions checked by a coordinating operator. Broader device/accessibility/performance checks and independent model-to-model generation trials remain untested. No universal-model or consistent-quality guarantee is made. The Skill now recommends time-control levels by scene; the included demos still provide only the verified L1 controls (pause, reset, speed, step, and forward run-to-time), not history seek or checkpoint branching.
 
 ## Install the Skill
 
@@ -45,15 +45,21 @@ Node.js is required only for model tests. Use HTTP, not a double-clicked file UR
 - **Service bottleneck:** deterministic arrivals and identical parallel servers, service-time and staffing interventions, stable task IDs, conserved work, explicit backlog. Not an M/M/c model and not a real staffing recommendation.
 - **Third-domain trial:** a biology/SIR generation brief is included in the evaluation plan, not an implemented or validated medical forecast.
 
+## Watch two real sampled experiments
+
+![Real thermal-exchange and service-queue simulation samples](docs/images/study-everything-sampled.gif)
+
+A **10-second sampled-state presentation**, not a continuous real-time recording: six thermal states at t=0/10/20/30/40/50 s, then six queue states at t=0/2/4/6/8/10 s. Every state was reached with the real model and paused before capture; no intermediate model states were generated. Original captures were 1920×1072; the captioned GIF is 1280×800. A coordinating operator reviewed playback and confirmed both scenes change, with no black frame; caption type is slightly small but the animation is usable. This is not history-seek functionality. [Encoding and provenance](docs/ANIMATION-PROVENANCE.json).
+
 ## Real desktop comparisons
-Actual viewport: **1920×1072**, not an earlier requested size. Four real browser captures of the original new examples were inspected locally, not generated as illustrations. Binary images are not uploaded in this initial snapshot, so the table records results and filenames rather than displaying unavailable images. Clicking/picking and camera interactions were tested separately; the local captures show unselected inspectors.
+Actual viewport: **1920×1072**, not an earlier requested size. These unmodified browser captures are original new examples, not generated illustrations. Clicking/picking and camera interactions were tested separately; the screenshots themselves show unselected inspectors.
 
 | Thermal exchange, same t=50 s | Service queue, same t=10 s |
 |---|---|
 | **Baseline:** G=20 W/K, 61.0 / 39.0 °C | **Baseline:** 1 worker, 4 completed, 5 waiting, 1 busy |
-| Capture: `thermal-baseline-50s.png` (binary image pending upload) | Capture: `queue-baseline-10s.png` (binary image pending upload) |
+| ![Thermal baseline at 50 seconds](docs/images/thermal-baseline-50s.png) | ![Queue baseline at 10 seconds](docs/images/queue-baseline-10s.png) |
 | **Intervention:** G=40 W/K, 54.1 / 45.9 °C; same 50 °C equilibrium | **Intervention:** 2 workers, 8 completed, 0 waiting, 2 busy |
-| Capture: `thermal-intervention-50s.png` (binary image pending upload) | Capture: `queue-intervention-10s.png` (binary image pending upload) |
+| ![Thermal intervention at 50 seconds](docs/images/thermal-intervention-50s.png) | ![Queue intervention at 10 seconds](docs/images/queue-intervention-10s.png) |
 
 For exact-time reproduction: preset → **Reset paused** → enter 50 (thermal) or 10 (queue) → **Run to time, then pause**. The real model advances; no frame is fabricated. These examples do **not** include history seek or checkpoint branches; do not describe them as L2/L3 or as a complete spacetime ("4D") simulator. See [time-design guidance](references/time-design.md), [validation report](docs/VALIDATION.md), [image provenance/checksums](docs/SCREENSHOTS.json), and [three-model matrix](evaluation/MODEL-MATRIX.md). All three independent-model slots are **unknown / not run**. Browser-rendered scenes do not independently establish GPU hardware acceleration or a performance certification.
 
@@ -64,7 +70,7 @@ Traffic was the reference workflow; its source and screenshots are not included 
 - `templates/`: learning contract, portable prompt, delivery report.
 - `evaluation/`: rubric, cross-domain/cross-model protocol, numerical model tests, honest results matrix.
 - `installation/`: full and self-contained body files, metadata and helper-install guidance.
-- `docs/`: scoped validation/provenance records; binary screenshot files are pending upload.
+- `docs/`: four real stills, a sampled-state GIF, and scoped validation/provenance records.
 - `examples/`: original thermal and service-queue prototypes sharing a small renderer shell.
 - `vendor/three/`: pinned upstream renderer plus its license. No original traffic application source is bundled.
 
@@ -76,7 +82,7 @@ Traffic was the reference workflow; its source and screenshots are not included 
 没有代码执行或浏览器能力的模型可以输出设计和代码，但不能声称已运行、已截图或已验收。
 
 ## License and scope
-Newly authored package material is MIT-licensed, except the separately licensed vendored dependency. See [LICENSE](LICENSE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and [references/release-checklist.md](references/release-checklist.md). The private traffic reference project and its images are **not** relicensed or included. Publication and any later third-party screenshot reuse remain separate release steps. The four locally captured new-example images are not part of this initial source upload. The exact upstream Three.js notice remains preserved.
+Newly authored package material is MIT-licensed, except the separately licensed vendored dependency. See [LICENSE](LICENSE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and [references/release-checklist.md](references/release-checklist.md). The private traffic reference project and its images are **not** relicensed or included. The four still captures and the sampled-state GIF depict only the original examples and are covered by this package's MIT grant; the exact upstream Three.js notice remains preserved.
 
-## Initial publication scope
-All required example HTML, modules, styles, tests and local Three.js runtime files are present. The connector used for this initial grouped upload accepts text content only; PNG captures were not replaced by base64 text or broken image links. Screenshot metadata preserves locally checked provenance, but does not imply images are hosted here. See [PUBLICATION.md](PUBLICATION.md).
+## Publication scope
+Reviewed Skill source, examples, tests, and the vendored Three.js runtime are in this repository. Original stills and the sampled-state GIF were uploaded as binary assets and anonymously verified against local SHA-256 digests with `image/png` or `image/gif` content types. An optional review MP4 is not part of this repository. See [PUBLICATION.md](PUBLICATION.md).

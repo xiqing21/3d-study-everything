@@ -5,54 +5,59 @@
     "width": 1920,
     "height": 1072
   },
-  "imagePixelDimensions": "1920x1072 for all four files; independently checked from PNG headers",
+  "imagePixelDimensions": "1920x1072 for all four stills; independently checked from PNG headers",
   "requestedViewport": "Earlier requested dimensions were not the actual viewport and are not reported as achieved.",
   "deviceScaleFactor": "not independently recorded",
+  "publicationStatus": "The four original stills are published at docs/images/ and were anonymously verified against the SHA-256 digests below (image/png). See ANIMATION-PROVENANCE.json for the separate sampled-state GIF.",
+  "binaryUploadCommit": "d7dbcc0709e453bbff80a65e40d52d01fbcaac77",
   "images": [
     {
+      "file": "images/thermal-baseline-50s.png",
       "width": 1920,
       "height": 1072,
       "sha256": "e60e89dd79dec1fa7f7409ecfddd627f89b6fb0e4f91beb604eb9c5ca3f8cb61",
+      "contentTypeVerified": "image/png",
+      "anonymousBytesMatched": true,
       "provenance": "Unmodified real browser screenshot supplied by the coordinating browser operator; read visually during local packaging. Not a generated image.",
       "scene": "thermal",
       "trial": "baseline",
-      "simulationSeconds": 50,
-      "capturedFilename": "thermal-baseline-50s.png",
-      "includedInThisSnapshot": false
+      "simulationSeconds": 50
     },
     {
+      "file": "images/thermal-intervention-50s.png",
       "width": 1920,
       "height": 1072,
       "sha256": "12fe6931a6372671a1b5a71dae6b34482df826183ddca20e85957e38033b733c",
+      "contentTypeVerified": "image/png",
+      "anonymousBytesMatched": true,
       "provenance": "Unmodified real browser screenshot supplied by the coordinating browser operator; read visually during local packaging. Not a generated image.",
       "scene": "thermal",
       "trial": "intervention",
-      "simulationSeconds": 50,
-      "capturedFilename": "thermal-intervention-50s.png",
-      "includedInThisSnapshot": false
+      "simulationSeconds": 50
     },
     {
+      "file": "images/queue-baseline-10s.png",
       "width": 1920,
       "height": 1072,
       "sha256": "9b606ced0bd4c820272f3f7197d3e3e4f54eef6dab125ec57bba6a58d6522749",
+      "contentTypeVerified": "image/png",
+      "anonymousBytesMatched": true,
       "provenance": "Unmodified real browser screenshot supplied by the coordinating browser operator; read visually during local packaging. Not a generated image.",
       "scene": "queue",
       "trial": "baseline",
-      "simulationSeconds": 10,
-      "capturedFilename": "queue-baseline-10s.png",
-      "includedInThisSnapshot": false
+      "simulationSeconds": 10
     },
     {
+      "file": "images/queue-intervention-10s.png",
       "width": 1920,
       "height": 1072,
       "sha256": "d3ce3f8c9fa2760c72e4e35621625b3f220cc85349bf0aba31fa778fa208c37e",
+      "contentTypeVerified": "image/png",
+      "anonymousBytesMatched": true,
       "provenance": "Unmodified real browser screenshot supplied by the coordinating browser operator; read visually during local packaging. Not a generated image.",
       "scene": "queue",
       "trial": "intervention",
-      "simulationSeconds": 10,
-      "capturedFilename": "queue-intervention-10s.png",
-      "includedInThisSnapshot": false
+      "simulationSeconds": 10
     }
-  ],
-  "publicationStatus": "Metadata only: four real PNG captures remain pending upload; no screenshot binaries are included in this text-only initial snapshot."
+  ]
 }

@@ -1,0 +1,190 @@
+{
+  "date": "2026-11-23",
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "type": "Post-capture encoding and publication provenance; not a browser capture log",
+  "publishedAsset": "docs/images/study-everything-sampled.gif",
+  "binaryUploadCommit": "d7dbcc0709e453bbff80a65e40d52d01fbcaac77",
+  "sourceCaptureManifest": {
+    "file": "manifest.json",
+    "sha256": "5f105e7637dbdef345a376bbe95ea0557f159b26673036c93ad3828ee99179f8",
+    "all12FrameHashesMatched": true
+  },
+  "sourceReview": "All 12 source screenshots individually visually read; visible simulation clocks match filenames; thermal t50=61.0/39.0 C; queue t10=4 completed/5 waiting/1 busy.",
+  "playbackReview": "A coordinating operator visually reviewed GIF and MP4 playback: both scenes change, there is no black frame, and the presentation is usable. Caption type is slightly small. This review is not a mobile, accessibility, or hardware-acceleration certification.",
+  "gif": {
+    "file": "study-everything-sampled.gif",
+    "sha256": "5709cabe2ea146333db42d59f4739d4b6fecbd02b9efa00b7a66897a81e6474c",
+    "bytes": 1226212,
+    "dimensions": [
+      1280,
+      800
+    ],
+    "durationMilliseconds": 10000,
+    "frames": 12,
+    "contentTypeVerified": "image/gif",
+    "anonymousBytesMatched": true,
+    "path": "docs/images/study-everything-sampled.gif"
+  },
+  "transformations": [
+    "Uniform entire-screenshot resize",
+    "External caption bars; no UI values edited",
+    "Held sampled states, no generated intermediate states"
+  ],
+  "disclosure": "Ten-second sampled-state presentation of 12 held real paused screenshots. Not a continuous real-time recording. Not L2 history seek or L3 checkpoint branching.",
+  "sources": [
+    {
+      "source": "thermal-00.png",
+      "sha256": "82ce596f11e20b73d1bfcdce6d2cb36e96f8a647d6e976feb769b42157618917",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "thermal",
+      "simulationSeconds": 0,
+      "displayMilliseconds": 750,
+      "presentationFrame": "00.png"
+    },
+    {
+      "source": "thermal-10.png",
+      "sha256": "cfd0980891f520846daf0c8e84f81453228931e4faca6ea846ba7fa05b59e63b",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "thermal",
+      "simulationSeconds": 10,
+      "displayMilliseconds": 750,
+      "presentationFrame": "01.png"
+    },
+    {
+      "source": "thermal-20.png",
+      "sha256": "b63ffb83603962c532c149b325a30025bdfd129e2e0f554747e7d66b6f6d942d",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "thermal",
+      "simulationSeconds": 20,
+      "displayMilliseconds": 750,
+      "presentationFrame": "02.png"
+    },
+    {
+      "source": "thermal-30.png",
+      "sha256": "064637664584ba3a4c6d50dafb254f244e86a57ad6f61ac6172f31c25df4fce7",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "thermal",
+      "simulationSeconds": 30,
+      "displayMilliseconds": 750,
+      "presentationFrame": "03.png"
+    },
+    {
+      "source": "thermal-40.png",
+      "sha256": "532203cf9d37a8e1a75a01184fb0240d5d6304a6ef785fac878ceda2fbb02b83",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "thermal",
+      "simulationSeconds": 40,
+      "displayMilliseconds": 750,
+      "presentationFrame": "04.png"
+    },
+    {
+      "source": "thermal-50.png",
+      "sha256": "a63f1204b67d948ca2773abed3fc7153c1e9d57ec79acfc8e0a685cfd69af9be",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "thermal",
+      "simulationSeconds": 50,
+      "displayMilliseconds": 1250,
+      "presentationFrame": "05.png"
+    },
+    {
+      "source": "queue-00.png",
+      "sha256": "2c3a991c1c5b73bd97282f77f5c32cc802d6275744de02821832df65513f19eb",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "queue",
+      "simulationSeconds": 0,
+      "displayMilliseconds": 750,
+      "presentationFrame": "06.png"
+    },
+    {
+      "source": "queue-02.png",
+      "sha256": "cff914c5fd859f58b8acec66ae42014ccbce7e5a4cce3bd7095b1e829f7a4076",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "queue",
+      "simulationSeconds": 2,
+      "displayMilliseconds": 750,
+      "presentationFrame": "07.png"
+    },
+    {
+      "source": "queue-04.png",
+      "sha256": "247b3b7e7ef9410ed036497251f79e3008015fa4739d4e92aebff6c6920961d6",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "queue",
+      "simulationSeconds": 4,
+      "displayMilliseconds": 750,
+      "presentationFrame": "08.png"
+    },
+    {
+      "source": "queue-06.png",
+      "sha256": "25d700e656b15d0369cf7e37459bfeab5986691e176c09ce5040ac6faa70b7fd",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "queue",
+      "simulationSeconds": 6,
+      "displayMilliseconds": 750,
+      "presentationFrame": "09.png"
+    },
+    {
+      "source": "queue-08.png",
+      "sha256": "a2997863839453e8804f18da67a08c11a90d4f2d896f8dd4aadafbea7f197ae5",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "queue",
+      "simulationSeconds": 8,
+      "displayMilliseconds": 750,
+      "presentationFrame": "10.png"
+    },
+    {
+      "source": "queue-10.png",
+      "sha256": "be0d43e150e5067ec7f494d16a3abdcc8d66ec73b491d36ba446a55c581f8249",
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "scene": "queue",
+      "simulationSeconds": 10,
+      "displayMilliseconds": 1250,
+      "presentationFrame": "11.png"
+    }
+  ],
+  "mp4": {
+    "status": "Optional local review asset; visually reviewed and not published in this repository.",
+    "sha256": "b5d4be4a22572f37aca5407b251aac6062dae5ac577aa4a9591ab6501c1a388b",
+    "bytes": 261197,
+    "durationSeconds": 10,
+    "dimensions": [
+      1280,
+      800
+    ]
+  }
+}
