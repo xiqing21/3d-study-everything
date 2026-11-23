@@ -1,0 +1,19 @@
+# Learning contract
+- Subject / audience / prerequisites:
+- One-sentence learning outcome:
+- Prediction question:
+- Minimal causal chain:
+- Mechanism classification and evidence ledger:
+- State / units / equations or event rules:
+- Boundary conditions / simplifications / excluded mechanisms:
+- Controls: name | default | range | unit | live or reset | causal effect:
+- Outputs: formula | unit | window | population | missing semantics:
+- Invariants and hand-checkable example:
+- Baseline / intervention / counterexample:
+- Time-control level (L0 static / L1 play-pause-step-run-to-time / L2 history seek and bookmarks / L3 checkpoint branches) and why time does or does not have teaching value:
+- Simulation time versus wall-clock time; live versus fork/reset parameter semantics:
+- Stable IDs / snapshot / pause / reset semantics (and, if claimed, seek/replay isolation):
+- 3D representation / visual analogies / accessibility:
+- Browser/device target and verification plan:
+- Dependencies, rights and external service boundaries:
+- Ranked extensions: isolation / coupling / adjacent question:

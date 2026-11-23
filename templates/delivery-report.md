@@ -1,0 +1,18 @@
+# Delivery report
+- Artifact revision and runnable entrypoint:
+- Actual execution environment and launch command:
+- Learning goal and experiment procedure:
+- Time-control level actually implemented (L0–L3) and evidence; do not claim seek/branching or 4D spacetime if only L1 exists:
+- Established mechanism / simplified model / visual analogy:
+- Source/evidence ledger and unchecked claims:
+- Controls and metric definitions:
+- Model tests: command, actual result, log:
+- Render binding checks: actual objects and times:
+- Browser/GPU checks: operator, viewport/device, actions, result:
+- Screenshots: path, provenance, configuration, time, clearance:
+- Unverified / failed / omitted:
+- Performance measurement or explicitly unmeasured:
+- Dependencies/licenses:
+- Suggested extensions with benefits, costs and validation:
+- Reopen check of exact delivered artifact:
+- No live services/devices unless explicitly stated and verified:
