@@ -1,0 +1,49 @@
+{
+  "time": "2026-11-23T06:18:40.992987+08:00",
+  "zone": "Asia/Shanghai",
+  "scope": "HTTP/static checks and original-image integrity only; browser interactions attributed separately in docs/VALIDATION.md",
+  "files": [
+    {
+      "file": "evaluation/models.test.mjs",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "examples/app.mjs",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "examples/models.mjs",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "examples/queue.html",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "examples/style.css",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "examples/thermal.html",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "vendor/three/three.core.js",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "vendor/three/three.module.js",
+      "status": 200,
+      "sha256_match": true
+    }
+  ],
+  "brokenLiteralLocalLinks": [],
+  "privateTargetMarkerMatches": []
+}

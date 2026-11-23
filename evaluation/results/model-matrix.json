@@ -1,0 +1,66 @@
+{
+  "status": "not_run",
+  "claim": "No cross-model consistency established",
+  "slots": [
+    {
+      "slot": "A",
+      "model": null,
+      "version": null,
+      "host": null,
+      "tools": null,
+      "budget": null,
+      "thermal": {
+        "status": "not_run",
+        "score": null
+      },
+      "queue": {
+        "status": "not_run",
+        "score": null
+      },
+      "biology": {
+        "status": "not_run",
+        "score": null
+      }
+    },
+    {
+      "slot": "B",
+      "model": null,
+      "version": null,
+      "host": null,
+      "tools": null,
+      "budget": null,
+      "thermal": {
+        "status": "not_run",
+        "score": null
+      },
+      "queue": {
+        "status": "not_run",
+        "score": null
+      },
+      "biology": {
+        "status": "not_run",
+        "score": null
+      }
+    },
+    {
+      "slot": "C",
+      "model": null,
+      "version": null,
+      "host": null,
+      "tools": null,
+      "budget": null,
+      "thermal": {
+        "status": "not_run",
+        "score": null
+      },
+      "queue": {
+        "status": "not_run",
+        "score": null
+      },
+      "biology": {
+        "status": "not_run",
+        "score": null
+      }
+    }
+  ]
+}

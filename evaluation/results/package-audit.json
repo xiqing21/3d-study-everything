@@ -1,0 +1,49 @@
+{
+  "time": "2026-11-23T06:18:40.992987+08:00",
+  "zone": "Asia/Shanghai",
+  "scanScope": "All package text files for specified private markers and high-confidence credential patterns; not a comprehensive security/legal audit",
+  "privateTargetMatches": [],
+  "credentialPatternMatches": [],
+  "brokenLocalLinks": [],
+  "includedTrafficImages": false,
+  "canonicalBodyMatchesFullBody": true,
+  "publicationScope": "Text-only initial source snapshot; no binary screenshots or raw logs included.",
+  "newExampleScreenshotIntegrityCheckedLocally": [
+    {
+      "sameBytesAsOperatorOriginal": true,
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "capturedFilename": "thermal-baseline-50s.png",
+      "includedInThisSnapshot": false
+    },
+    {
+      "sameBytesAsOperatorOriginal": true,
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "capturedFilename": "thermal-intervention-50s.png",
+      "includedInThisSnapshot": false
+    },
+    {
+      "sameBytesAsOperatorOriginal": true,
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "capturedFilename": "queue-baseline-10s.png",
+      "includedInThisSnapshot": false
+    },
+    {
+      "sameBytesAsOperatorOriginal": true,
+      "dimensions": [
+        1920,
+        1072
+      ],
+      "capturedFilename": "queue-intervention-10s.png",
+      "includedInThisSnapshot": false
+    }
+  ]
+}

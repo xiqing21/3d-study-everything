@@ -1,0 +1,10 @@
+{
+  "command": "node --test evaluation/models.test.mjs",
+  "scope": "Original numerical model tests, not independent-model generation tests or browser GPU certification",
+  "tests": 10,
+  "passed": 10,
+  "failed": 0,
+  "lastExecution": "2026-11-23",
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "rawLogsIncluded": false
+}
