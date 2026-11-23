@@ -1,0 +1,8 @@
+{
+  "name": "3d-study-everything",
+  "description": "Use when turning domain knowledge, a business process, or a scene into a browser-based 3D interactive learning simulation with explicit mechanisms, causal controls, scene-appropriate time navigation, measurable feedback, and verified teaching scenarios.",
+  "recommendedBodyFile": "skill-body-self-contained.md",
+  "fullBodyFile": "skill-body-full.md",
+  "frontmatterIncludedInBodyFiles": false,
+  "hostInstallationStatus": "not_performed_by_packaging_executor"
+}
