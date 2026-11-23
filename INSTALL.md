@@ -2,6 +2,22 @@
 
 There is no universal skills installer. Use the method your host actually supports; do not invent a tool, claim installation from a pasted URL, or silently substitute a different platform.
 
+## One-command install (supported Skill hosts)
+
+```sh
+npx skills add xiqing21/3d-study-everything --skill 3d-study-everything
+```
+
+Requires Node.js/npm, internet access, and a host supported by the third-party [Skills CLI](https://github.com/vercel-labs/skills). Review the Skill before installing. This installs instructions, not a hosted web app. The repository-root `SKILL.md` is discoverable; helpers are copied with it.
+
+The exact command above was tested in an isolated project with Skills CLI **1.9.0**. A second isolated test explicitly targeted Claude Code file installation:
+
+```sh
+npx --yes skills@1.9.0 add xiqing21/3d-study-everything --skill 3d-study-everything --agent claude-code --copy --yes
+```
+
+Both installed the Skill and its referenced helpers with matching hashes. No model was invoked; installation success is not evidence of generation quality or cross-model consistency. Use `--list` to preview discovery. Let the CLI select supported hosts, or choose a documented `--agent`; add `--global` only if you deliberately want a host-supported global install. The isolated tests used **project-local** installs and did not modify shared Skills. See the [installation test record](docs/INSTALLATION-VALIDATION.json).
+
 ## Single-body global Skill save (recommended when helper storage is uncertain)
 Use `installation/metadata.json` for the generic name/description and `installation/skill-body-self-contained.md` for the complete essential recipe without YAML frontmatter. The body has no dependency on this package's future location, local service URLs, private paths or accounts. Use the host's real authorized save mechanism; this package does not claim the Skill was installed.
 

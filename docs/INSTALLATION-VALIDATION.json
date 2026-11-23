@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-23",
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "source": "https://github.com/xiqing21/3d-study-everything",
+  "sourceCommit": "e4f896789111ad0a5eacb17e536eb2a00b4679cf",
+  "cli": {
+    "npmPackage": "skills",
+    "version": "1.9.0",
+    "upstream": "https://github.com/vercel-labs/skills",
+    "node": "v24.22.1",
+    "npm": "11.21.1"
+  },
+  "isolation": "Fresh temporary project directories, isolated HOME/XDG/npm cache, no global Git config, no GitHub token environment variables; no shared skill directory or registered user computer modified.",
+  "tests": [
+    {
+      "command": "npx --yes skills@1.9.0 add xiqing21/3d-study-everything --skill 3d-study-everything --list",
+      "exitCode": 0,
+      "result": "Discovered exactly one root Skill; no installation requested."
+    },
+    {
+      "command": "npx skills add xiqing21/3d-study-everything --skill 3d-study-everything",
+      "exitCode": 0,
+      "result": "Installed project-local .agents/skills/3d-study-everything; 43 installed files byte-identical to reviewed source snapshot."
+    },
+    {
+      "command": "npx --yes skills@1.9.0 add xiqing21/3d-study-everything --skill 3d-study-everything --agent claude-code --copy --yes",
+      "exitCode": 0,
+      "result": "Installed project-local .claude/skills/3d-study-everything; 43 installed files byte-identical to reviewed source snapshot."
+    }
+  ],
+  "skillSha256": "80ff4d25be3de92f1a21203e86e6fc47dddf3d59d8f41092969938c4e133be78",
+  "helpersVerified": [
+    "references/mechanism-design.md",
+    "references/visual-and-interaction.md",
+    "references/time-design.md",
+    "templates/learning-contract.md",
+    "templates/delivery-report.md",
+    "evaluation/RUBRIC.md",
+    "evaluation/TEST-PLAN.md"
+  ],
+  "limits": [
+    "Only file discovery/copying was tested, not instruction retrieval by a running assistant.",
+    "No model was invoked or compared.",
+    "Other host paths, operating systems, future CLI releases, global installations and generated-app quality remain unverified."
+  ],
+  "officialDocs": [
+    "https://github.com/vercel-labs/skills/blob/main/docs/commands.md",
+    "https://github.com/vercel-labs/skills/blob/main/docs/creating-skills.md"
+  ]
+}

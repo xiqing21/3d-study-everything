@@ -7,6 +7,13 @@ A portable, English-first skill for turning business knowledge and domain scenar
 **Status: initial public source snapshot.** Two original runnable examples have 10 passing numerical tests plus selected desktop-browser comparisons and interactions checked by a coordinating operator. Four real screenshots were captured locally, but their binary PNG files are **not included in this initial text-only publication**. Screenshot upload remains pending; the source and local examples are runnable without those images. Broader device/accessibility/performance checks and independent model-to-model generation trials remain untested. No universal-model or consistent-quality guarantee is made. The Skill now recommends time-control levels by scene; the included demos still provide only the verified L1 controls (pause, reset, speed, step, and forward run-to-time), not history seek or checkpoint branching.
 
 ## Install the Skill
+
+```sh
+npx skills add xiqing21/3d-study-everything --skill 3d-study-everything
+```
+
+For hosts supported by the third-party [Skills CLI](https://github.com/vercel-labs/skills); requires Node.js/npm and internet. The exact command was tested with CLI **1.9.0** in a fresh isolated project: root `SKILL.md` discovered, Skill and relative helpers installed, all installed file hashes matched the reviewed snapshot. An explicit Claude Code **file-install** target was also tested; no model execution or universal host support is implied. This installs the Skill, not a hosted demo. [Details, a pinned command and alternatives](INSTALL.md).
+
 - **File-based Skill host:** install this folder using the host's documented Skill directory/discovery process. Keep `SKILL.md`, `references/`, `templates/` and `evaluation/` at the same relative locations. Do not assume one universal installation path.
 - **One global instruction/Skill body:** use [the self-contained body](installation/skill-body-self-contained.md), which needs no helper files or persistent local paths. Name and description are in [metadata.json](installation/metadata.json). Saving files here is not the same as installing the Skill in a host.
 - **Project/chat attachments:** attach `SKILL.md` and referenced helpers, or paste the self-contained body if the host cannot resolve relative files. Code execution and browser tools are required to verify generated applications.
