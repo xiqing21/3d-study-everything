@@ -20,7 +20,7 @@ Keep this name. If a brief asks for "4D," treat it as **3D plus time** when time
 - Choose 2–4 meaningful controls with ranges, units, defaults, and predicted effects. Each must change the model, not just a shader or label.
 - Choose 2–4 model-derived outputs. Define sample population, time window, denominator, missing values, and cumulative versus instantaneous metrics.
 - Write a baseline, a one-factor intervention, a counterexample/boundary case, and expected observations. Do not force an apparent improvement.
-- Add a small prediction prompt and an observation/explanation prompt. Teach why a result occurs and when it may not generalize.
+- Add a small prediction prompt and an observation/explanation prompt. Teach why a result occurs and when it may not generalize. `templates/experiment-deck.md` holds the predict → reveal → apply → reset pattern; re-measure each card's promise after any parameter change.
 - Decide whether **time itself** has teaching value. If the subject is static structure, stay at **L0** (inspectable 3D, no playhead). If a process must be watched, recommend the lowest sufficient level: **L1** play, pause, speed, step, and optional forward run-to-time; **L2** real history seek and event bookmarks; **L3** checkpoint decision branches with fair comparison. Do not implement every level by default.
 - Offer three clearly separated extensions: a simpler isolation mode, a richer coupled mechanism, and a useful adjacent-domain experiment. State learning benefit, extra assumptions, implementation cost, and verification needed. Implement the highest-value in-scope extension, not every idea.
 
@@ -36,6 +36,7 @@ Keep this name. If a brief asks for "4D," treat it as **3D plus time** when time
 ## 4. Build a legible, original 3D learning space
 - Prefer actual mesh-based 3D with a controllable camera when the task asks for 3D. If only 2D or pseudo-3D is possible, name that fallback honestly; do not call it WebGL.
 - Use `references/visual-and-interaction.md`: coherent low-poly forms, restrained palette, readable silhouettes, depth, soft shadows, and disciplined information hierarchy. Derive the design from the subject, not a copied artist identity or brand.
+- When the subject reads as a bounded physical model (site, plinth, block plan, machine on a base plate), start from `references/visual-baseline.md`: tested palette, three-light setup, camera presets, geometry budget, single-file packaging, and the traps that cost a review round. Adapt the metaphor; do not reuse the example subject.
 - Bind geometry, charts, metrics, effects, labels, and selection to the same model snapshot. Effects conveying physical change must agree with the mechanism; decorative effects must be identified.
 - Support orbit/pan/zoom or accessible camera presets, entity picking, persistent selection feedback, a details panel, and a DOM/list alternative to 3D picking. Stable IDs connect both directions.
 - Always provide the time controls required by the chosen level, plus readable units, a legend, and keyboard/touch-accessible controls. At L1 or above, include pause/resume and deterministic reset. Do not steal keys from focused form fields.
