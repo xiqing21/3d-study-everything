@@ -5,12 +5,12 @@ A deck turns a sandbox into a lesson: the learner predicts, the card reveals, th
 ## Card anatomy
 
 ```
-n       序号 + 一句机制句（这是什么，不是"很重要"）
-title   名词级标题，不带结论
-q       一个可以在画面上验证的问题
-opts    2–3 个选项，恰一个正确，错误项要似是而非
-exp     揭晓：公式 + 代入的数字 + 实测值 + 一句"所以"
-apply   该卡片要写入的参数对象（点击即应用并重置）
+n        序号 + 一句机制句（这是什么，不是"很重要"）
+title    名词级标题，不带结论
+q        一个可以在画面上验证的问题
+opts     2–3 个选项，恰一个正确，错误项要似是而非
+exp      揭晓：公式 + 代入的数字 + 实测值 + 一句"所以"
+apply    该卡片要写入的参数对象（点击即应用并重置）
 ```
 
 ## Rules
