@@ -2,7 +2,7 @@
 
 **Give an AI a subject. Build a world you can test.**
 
-A portable, English-first skill for turning business knowledge and domain scenarios into interactive 3D learning experiments. It combines causal modeling, original visual design, direct manipulation, layered verification, and scene-appropriate time control. The name stays **3D Study Everything**. "4D" here means 3D plus time when the lesson needs it, not a fourth spatial dimension.
+A portable, English-first skill for turning business knowledge and domain into interactive 3D learning experiments. It combines causal modeling, original visual design, direct manipulation, layered verification, and scene-appropriate time control. The name stays **3D Study Everything**. "4D" here means 3D plus time when the lesson needs it, not a fourth spatial dimension.
 
 **Status: public source with original visual evidence.** Source, four still screenshots, and a sampled-state GIF are published at [xiqing21/3d-study-everything](https://github.com/xiqing21/3d-study-everything). Two original runnable examples have 10 passing numerical tests plus selected desktop-browser comparisons and interactions checked by a coordinating operator. Broader device/accessibility/performance checks and independent model-to-model generation trials remain untested. No universal-model or consistent-quality guarantee is made. The Skill now recommends time-control levels by scene; the included demos still provide only the verified L1 controls (pause, reset, speed, step, and forward run-to-time), not history seek or checkpoint branching.
 
@@ -66,8 +66,8 @@ For exact-time reproduction: preset → **Reset paused** → enter 50 (thermal) 
 Traffic was the reference workflow; its source and screenshots are not included in this MIT package because its reuse license has not been established.
 
 ## Contents
-- `references/`: mechanism design, time-control levels, visual/interaction guidance, traffic case-study lessons, licensing/release gates.
-- `templates/`: learning contract, portable prompt, delivery report.
+- `references/`: mechanism design, time-control levels, visual/interaction guidance, a tested sandbox visual baseline (palette, lighting, camera presets, geometry budget, offline single-file packaging), traffic case-study lessons, licensing/release gates.
+- `templates/`: learning contract, delivery report, portable prompt, and the guided experiment deck pattern (predict → reveal → apply → reset).
 - `evaluation/`: rubric, cross-domain/cross-model protocol, numerical model tests, honest results matrix.
 - `installation/`: full and self-contained body files, metadata and helper-install guidance.
 - `docs/`: four real stills, a sampled-state GIF, and scoped validation/provenance records.
